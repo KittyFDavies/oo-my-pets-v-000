@@ -50,7 +50,9 @@ class Owner
 
   def play_with_cats
     binding.pry
-    Cat.mood = "happy"
+    @pets[:cats].each do |cat|
+
+    end
   end
 
   def walk_dogs
