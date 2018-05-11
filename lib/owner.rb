@@ -49,7 +49,8 @@ class Owner
   end
 
   def play_with_cats
-    fluffy = @pets[:cats][0]
+    #fluffy = @pets[:cats][0]
+    Cat.mood
     binding.pry
     
   end
