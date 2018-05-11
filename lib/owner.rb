@@ -49,7 +49,8 @@ class Owner
   end
 
   def play_with_cats
-    Cat.mood = "happy"
+    @pets[:cats]
+    binding.pry
   end
 
   def walk_dogs
