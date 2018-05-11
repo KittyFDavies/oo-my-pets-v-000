@@ -49,10 +49,7 @@ class Owner
   end
 
   def play_with_cats
-    #fluffy = @pets[:cats][0]
     Cat
-    binding.pry
-
   end
 
   def walk_dogs
