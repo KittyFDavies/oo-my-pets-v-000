@@ -51,7 +51,7 @@ class Owner
   def play_with_cats
     fluffy = @pets[:cats][0]
     binding.pry
-    cat.instance_variable_get(@mood)
+    #fluffy.instance_variable_get(@mood)
 
   end
 
