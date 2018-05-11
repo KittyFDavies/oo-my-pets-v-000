@@ -49,7 +49,7 @@ class Owner
   end
 
   def play_with_cats
-    binding.pry
+
     @pets[:cats].each do |cat|
       cat.mood = "happy"
     end
