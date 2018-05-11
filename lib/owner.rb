@@ -49,6 +49,7 @@ class Owner
   end
 
   def play_with_cats
+    binding.pry
     Cat.mood = "happy"
   end
 
