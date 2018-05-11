@@ -49,7 +49,7 @@ class Owner
   end
 
   def play_with_cats
-    @pets[:cats]
+    cat = @pets[:cats][0]
     binding.pry
   end
 
