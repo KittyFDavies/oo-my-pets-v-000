@@ -52,7 +52,7 @@ class Owner
     #fluffy = @pets[:cats][0]
     Cat.mood
     binding.pry
-    
+
   end
 
   def walk_dogs
